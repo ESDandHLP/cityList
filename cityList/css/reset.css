@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ul,ol,dt{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.clearfloat::after{
+    content: '';
+    display: block;
+    clear: both;
+}
